@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del Estudiante</title>
+</head>
+<body>
+    <h1>DATOS DEL ESTUDIANTE</h1>
+
+    <form id="formularioEstudiante">
+        <div class="fila">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="fila">
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+            <label for="lugarNacimiento">Lugar de nacimiento:</label>
+            <input type="text" id="lugarNacimiento" name="lugarNacimiento" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+        </div>
+
+        <div class="fila">
+            <label for="tipoDocumentoIdentidad">Tipo Documento Identidad:</label>
+            <select id="tipoDocumentoIdentidad" name="tipoDocumentoIdentidad" required>
+                <option value="TI">T.I.</option>
+                <option value="CC">C.C.</option>
+            </select>
+
+            <label for="numeroDocumentoIdentidad">Número Documento Identidad:</label>
+            <input type="number" id="numeroDocumentoIdentidad" name="numeroDocumentoIdentidad" required>
+
+            <label for="lugarExpedicionDocumentoIdentidad">Lugar Expedición Documento Identidad:</label>
+            <input type="text" id="lugarExpedicionDocumentoIdentidad" name="lugarExpedicionDocumentoIdentidad" required>
+        </div>
+
+        <div class="fila">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="barrio">Barrio:</label>
+            <input type="text" id="barrio" name="barrio" required>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+        </div>
+
+        <div class="fila">
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" required>
+
+            <label for="celular">Celular:</label>
+            <input type="number" id="celular" name="celular" required>
+        </div>
+
+        <div class="fila">
+            <label for="emailPersonal">E-mail personal:</label>
+            <input type="email" id="emailPersonal" name="emailPersonal" required>
+
+            <label for="emailInst">E-mail inst:</label>
+            <input type="email" id="emailInst" name="emailInst">
+        </div>
+
+        <div class="fila">
+            <label for="tipoSangre">Tipo de Sangre:</label>
+            <select id="tipoSangre" name="tipoSangre">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+            </select>
+
+            <label for="eps">EPS:</label>
+            <input type="text" id="eps" name="eps" required>
+        </div>
+
+        <div class="fila">
+            <label for="enfermedad">¿Sufre alguna enfermedad?</label>
+            <div class="opciones">
+                <input type="radio" id="enfermedadSi" name="enfermedad" value="si" required>
+                <label for="enfermedadSi">Si</label>
+
+                <input type="radio" id="enfermedadNo" name="enfermedad" value="no">
+                <label for="enfermedadNo">No</label>
+            </div>
+
+            <label for="cualEnfermedad">Cuál?:</label>
+            <input type="text" id="cualEnfermedad" name="cualEnfermedad" disabled>
+        </div>
+
+    <form id="formularioEstudiante">
+        <h2>DATOS DEL PADRE</h2>
+
+        <div class="fila">
+            <label for="apellidosPadre">Apellidos:</label>
+            <input type="text" id="apellidosPadre" name="apellidosPadre" required>
+
+            <label for="nombrePadre">Nombre:</label>
+            <input type="text" id="nombrePadre" name="nombrePadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="direccionPadre">Dirección:</label>
+            <input type="text" id="direccionPadre" name="direccionPadre" required>
+
+            <label for="barrioPadre">Barrio:</label>
+            <input type="text" id="barrioPadre" name="barrioPadre" required>
+
+            <label for="ciudadPadre">Ciudad:</label>
+            <input type="text" id="ciudadPadre" name="ciudadPadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="telefonoPadre">Teléfono:</label>
+            <input type="number" id="telefonoPadre" name="telefonoPadre" required>
+
+            <label for="celularPadre">Celular:</label>
+            <input type="number" id="celularPadre" name="celularPadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="emailPadre">E-mail:</label>
+            <input type="email" id="emailPadre" name="emailPadre" required>
+
+            <label for="ocupacionPadre">Ocupación:</label>
+            <input type="text" id="ocupacionPadre" name="ocupacionPadre" required>
+        </div>
+
+        <h2>DATOS DE LA MADRE</h2>
+
+        <div class="fila">
+            <label for="apellidosMadre">Apellidos:</label>
+            <input type="text" id="apellidosMadre" name="apellidosMadre" required>
+
+            <label for="nombreMadre">Nombre:</label>
+            <input type="text" id="nombreMadre" name="nombreMadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="direccionMadre">Dirección:</label>
+            <input type="text" id="direccionMadre" name="direccionMadre" required>
+
+            <label for="barrioMadre">Barrio:</label>
+            <input type="text" id="barrioMadre" name="barrioMadre" required>
+
+            <label for="ciudadMadre">Ciudad:</label>
+            <input type="text" id="ciudadMadre" name="ciudadMadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="telefonoMadre">Teléfono:</label>
+            <input type="number" id="telefonoMadre" name="telefonoMadre" required>
+
+            <label for="celularMadre">Celular:</label>
+            <input type="number" id="celularMadre" name="celularMadre" required>
+        </div>
+
+        <div class="fila">
+            <label for="emailMadre">E-mail:</label>
+            <input type="email" id="emailMadre" name="emailMadre" required>
+
+            <label for="ocupacionMadre">Ocupación:</label>
+            <input type="text" id="ocupacionMadre" name="ocupacionMadre" required>
+        </div>
+
+        <h2>¿Cuáles son sus propósitos y expectativas personales y académicas como estudiante de la Especialidad en Sistemas?</h2>
+
+        <textarea id="propositosExpectativas" name="propositosExpectativas" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+        <div class="fila">
+            <label for
