@@ -1,0 +1,60 @@
+
+#formularioEstudiante {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #aa5179;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffcff2; 
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #92778f;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #988395;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
